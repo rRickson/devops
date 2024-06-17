@@ -1,0 +1,8 @@
+services:
+  ubuntu:
+    image: ubuntu
+    container_name: my_ubuntu
+    command: tail -f /dev/null
+    user: root
+    volumes: 
+     - ./conf:/home/ubuntu
